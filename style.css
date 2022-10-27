@@ -33,6 +33,15 @@ body {
   display: grid;
   place-content: center;
 }
+body.change{
+  background: linear-gradient(
+      0deg,
+      var(--Very-dark-desaturated-blue) 0%,
+      var(--Very-dark-grayish-blue) 100%
+    )
+    no-repeat center center fixed;
+    transition: 0.6s ease;
+}
 .card {
   background: url(images/bg-pattern-desktop.svg), white;
   position: relative;
@@ -130,6 +139,9 @@ body {
   color: #ffd372;
   padding: 6px 8px;
   border-radius: 50%;
+}
+.fa-moon{
+  color: #BAD1C2;
 }
 .t-btn.move {
   left: 75%;
