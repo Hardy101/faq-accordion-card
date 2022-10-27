@@ -72,6 +72,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .txt-div {
+  position: relative;
   padding: 4rem 3rem 3rem 3rem;
 }
 .down-arrow {
@@ -92,10 +93,10 @@ body {
   font-size: 0.938rem;
   color: var(--Very-dark-grayish-blue);
 }
-.acc-que:hover{
+.acc-que:hover {
   color: var(--Soft-red);
 }
-.active .acc-que{
+.active .acc-que {
   font-weight: bold;
 }
 .acc-h1 {
@@ -109,6 +110,29 @@ body {
 }
 .active .acc-ans {
   height: 3.125rem;
+}
+.toggle {
+  position: absolute;
+  width: 80px;
+  bottom: 10%;
+  right: 10%;
+  padding: 5px;
+  border-radius: 30px;
+  background: var(--Soft-blue);
+}
+.light {
+  position: absolute;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border: 1px solid #eee;
+  background: #fff;
+  color: #ffd372;
+  padding: 6px 8px;
+  border-radius: 50%;
+}
+.t-btn.move {
+  left: 75%;
 }
 /* Responsiveness */
 @media (max-width: 56.25rem) {
@@ -127,7 +151,7 @@ body {
     display: block;
   }
   .txt-div {
-    padding: 5rem 1.5rem 3rem 1.5rem;
+    padding: 5rem 1.5rem 1rem 1.5rem;
   }
   .acc-h1 {
     margin: 2rem 0;
@@ -135,5 +159,13 @@ body {
   }
   .active .acc-ans {
     height: 3.125rem;
+  }
+  .toggle {
+    position: relative;
+    margin: 1rem;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 50%;
   }
 }

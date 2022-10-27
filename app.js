@@ -1,6 +1,9 @@
 "use strict";
 const question_div = document.querySelectorAll(".acc-div");
 const answer = document.querySelectorAll(".acc-ans");
+const toggle_div = document.querySelector('.toggle')
+const toggle_btn = document.querySelector('.t-btn')
+const btn_change = document.querySelector('.fa-sun')
 
 question_div.forEach((div) => {
   div.addEventListener("click", () => {
@@ -16,3 +19,7 @@ question_div.forEach((div) => {
     }
   });
 });
+
+toggle_btn.addEventListener('click', () => {
+  toggle_btn.classList.toggle('move')
+})
