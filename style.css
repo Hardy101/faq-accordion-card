@@ -63,10 +63,6 @@ body.change {
   background-size: 100%;
   background-position: -33.125rem -16.563rem;
 }
-.img-div {
-  position: relative;
-  overflow: hidden;
-}
 .box {
   position: absolute;
   top: 55%;
@@ -86,17 +82,24 @@ body.change {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.img-div {
+  position: relative;
+  overflow: hidden;
+}
+/* Text Div of card */
 .txt-div {
   position: relative;
   padding: 4rem 3rem 3rem 3rem;
 }
-.down-arrow {
-  width: 0.75rem;
-  height: 0.5rem;
-  margin: auto 0;
+.acc-h1 {
+  margin-bottom: 2rem;
+  color: var(--dark-grayish-blue);
+  font-size: 2rem;
 }
-.active .down-arrow {
-  transform: rotate(180deg);
+.change .acc-que,
+.change .acc-h1,
+.change .acc-ans {
+  color: #fff;
 }
 .acc-div {
   border-bottom: 1px solid var(--Light-grayish-blue);
@@ -108,21 +111,19 @@ body.change {
   font-size: 0.938rem;
   color: var(--Very-dark-grayish-blue);
 }
-.change .acc-que,
-.change .acc-h1,
-.change .acc-ans {
-  color: #fff;
-}
 .acc-que:hover {
   color: var(--Soft-red);
 }
 .active .acc-que {
   font-weight: bold;
 }
-.acc-h1 {
-  margin-bottom: 2rem;
-  color: var(--dark-grayish-blue);
-  font-size: 2rem;
+.down-arrow {
+  width: 0.75rem;
+  height: 0.5rem;
+  margin: auto 0;
+}
+.active .down-arrow {
+  transform: rotate(180deg);
 }
 .acc-ans {
   height: 0;
@@ -155,7 +156,7 @@ body.change {
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
-.light:focus{
+.light:focus {
   outline: none;
 }
 .fa-moon {
