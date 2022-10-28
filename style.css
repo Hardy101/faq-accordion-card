@@ -109,7 +109,8 @@ body.change {
   color: var(--Very-dark-grayish-blue);
 }
 .change .acc-que,
-.change .acc-h1 {
+.change .acc-h1,
+.change .acc-ans {
   color: #fff;
 }
 .acc-que:hover {
