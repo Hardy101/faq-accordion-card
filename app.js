@@ -1,5 +1,6 @@
 "use strict";
 const body = document.querySelector('body')
+const card = document.querySelector('.card')
 const question_div = document.querySelectorAll(".acc-div");
 const answer = document.querySelectorAll(".acc-ans");
 const toggle_div = document.querySelector(".toggle");
@@ -31,4 +32,5 @@ toggle_btn.addEventListener("click", () => {
   }
   toggle_btn.classList.toggle("move");
   body.classList.toggle('change')
+  card.classList.toggle('change')
 });

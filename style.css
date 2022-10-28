@@ -33,14 +33,14 @@ body {
   display: grid;
   place-content: center;
 }
-body.change{
+body.change {
   background: linear-gradient(
       0deg,
       var(--Very-dark-desaturated-blue) 0%,
       var(--Very-dark-grayish-blue) 100%
     )
     no-repeat center center fixed;
-    transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 .card {
   background: url(images/bg-pattern-desktop.svg), white;
@@ -55,7 +55,14 @@ body.change{
   border-radius: 1.438rem;
   -webkit-box-shadow: 0px 32px 27px -8px rgba(59, 59, 135, 0.81);
   box-shadow: 0px 32px 27px -8px rgba(59, 59, 135, 0.81);
-  transition: 0.7s ease;
+}
+.card.change {
+  background: url(images/bg-pattern-desktop.svg),
+    var(--Very-dark-desaturated-blue);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: -33.125rem -16.563rem;
+  color: #fff;
 }
 .img-div {
   position: relative;
@@ -102,6 +109,10 @@ body.change{
   font-size: 0.938rem;
   color: var(--Very-dark-grayish-blue);
 }
+.change .acc-que,
+.change .acc-h1 {
+  color: #fff;
+}
 .acc-que:hover {
   color: var(--Soft-red);
 }
@@ -140,8 +151,8 @@ body.change{
   padding: 6px 8px;
   border-radius: 50%;
 }
-.fa-moon{
-  color: #BAD1C2;
+.fa-moon {
+  color: #bad1c2;
 }
 .t-btn.move {
   left: 75%;
