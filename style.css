@@ -14,7 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
-  transition: 0.3s ease;
+  transition: all 0.5s ease-in-out;
 }
 .flex-btw {
   display: flex;
@@ -133,12 +133,15 @@ body.change {
 }
 .toggle {
   position: absolute;
-  width: 80px;
+  width: 60px;
   bottom: 10%;
   right: 10%;
   padding: 5px;
   border-radius: 30px;
   background: var(--Soft-blue);
+}
+.change .toggle{
+  background: var(--Dark-grayish-blue);
 }
 .light {
   position: absolute;
@@ -150,6 +153,7 @@ body.change {
   color: #ffd372;
   padding: 6px 8px;
   border-radius: 50%;
+  transition: all 0.5s ease-in-out;
 }
 .fa-moon {
   color: #bad1c2;
@@ -166,6 +170,12 @@ body.change {
     grid-template-columns: 1fr;
     width: 25rem;
     height: auto;
+  }
+  .card.change {
+    background: url(images/bg-pattern-mobile.svg),
+      var(--Very-dark-desaturated-blue);
+    background-repeat: no-repeat;
+    background-position: 50% 0.313rem;
   }
   .box {
     display: none;
@@ -189,6 +199,6 @@ body.change {
     bottom: 0;
     transform: translate(-50%, -50%);
     top: 5%;
-    left: 50%;
+    left: 46%;
   }
 }
