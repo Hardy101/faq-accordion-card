@@ -62,7 +62,6 @@ body.change {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: -33.125rem -16.563rem;
-  color: #fff;
 }
 .img-div {
   position: relative;
@@ -140,7 +139,7 @@ body.change {
   border-radius: 30px;
   background: var(--Soft-blue);
 }
-.change .toggle{
+.change .toggle {
   background: var(--Dark-grayish-blue);
 }
 .light {
@@ -153,7 +152,10 @@ body.change {
   color: #ffd372;
   padding: 6px 8px;
   border-radius: 50%;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.light:focus{
+  outline: none;
 }
 .fa-moon {
   color: #bad1c2;
