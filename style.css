@@ -132,10 +132,10 @@ body.change {
 }
 .toggle {
   position: absolute;
-  width: 60px;
+  width: 3.75rem;
   bottom: 10%;
   right: 10%;
-  padding: 5px;
+  padding: 0.313rem;
   border-radius: 30px;
   background: var(--Soft-blue);
 }
@@ -150,7 +150,7 @@ body.change {
   border: 1px solid #eee;
   background: #fff;
   color: #ffd372;
-  padding: 6px 8px;
+  padding: 0.375rem 0.5rem;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
