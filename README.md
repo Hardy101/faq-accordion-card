@@ -23,8 +23,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Hardy101/faq-accordion-card)
-- Live Site URL: [Add live site URL here](https://hardy101.github.io/faq-accordion-card/)
+- Solution URL: [Solution URL:](https://github.com/Hardy101/faq-accordion-card)
+- Live Site URL: [Live site URL:](https://hardy101.github.io/faq-accordion-card/)
 
 ## My process
 
@@ -50,6 +50,6 @@ I hit a bit of a snag when trying to position the patter image, but with a bit o
 
 ## Author
 
-- Website - [Eghosa Ordia](https://github.com/Hardy101/faq-accordion-card)
+- Website - [Eghosa Ordia](https://hardy101.github.io/faq-accordion-card/)
 - Frontend Mentor - [@Hardy101](https://www.frontendmentor.io/profile/Hardy101)
 - Twitter - [@Eghosa Ordia](https://www.twitter.com/EghosaOrdia)
