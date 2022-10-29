@@ -50,7 +50,7 @@ body.change {
   background-position: -33.125rem -16.563rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 57.5rem;
+  max-width: 57.5rem;
   height: 31.813rem;
   border-radius: 1.438rem;
   -webkit-box-shadow: 0px 32px 27px -8px rgba(59, 59, 135, 0.81);
@@ -154,6 +154,7 @@ body.change {
   color: #ffd372;
   padding: 0.375rem 0.5rem;
   border-radius: 50%;
+  
   transition: all 0.3s ease-in-out;
 }
 .light:focus {
@@ -172,7 +173,7 @@ body.change {
     background-repeat: no-repeat;
     background-position: 50% 0.313rem;
     grid-template-columns: 1fr;
-    width: 25rem;
+    max-width: 25rem;
     height: auto;
   }
   .card.change {
